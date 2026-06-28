@@ -3,11 +3,7 @@ package com.aerindor.simplehideplayernames;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(
-    modid = SimpleHidePlayerNames.MODID,
-    name = SimpleHidePlayerNames.NAME,
-    version = SimpleHidePlayerNames.VERSION
-)
+@Mod(modid = SimpleHidePlayerNames.MODID, name = SimpleHidePlayerNames.NAME, version = SimpleHidePlayerNames.VERSION)
 public class SimpleHidePlayerNames {
 
     public static final String MODID = "simplehideplayernames";
