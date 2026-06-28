@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.aerindor.simplehideplayernames.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "refmap": "mixins.simplehideplayernames.refmap.json",
+  "mixins": [],
+  "client": [
+    "MixinRendererLivingEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
