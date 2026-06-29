@@ -19,7 +19,11 @@ public abstract class MixinRender {
         remap = true)
     private void hidePlayerNames(Entity entity, String str, double x, double y, double z, int maxDistance,
         CallbackInfo ci) {
-
+        System.out.println(
+            "Label: " + str
+                + " "
+                + entity.getClass()
+                    .getSimpleName());
         if (entity instanceof EntityPlayer) {
             ci.cancel();
         }
